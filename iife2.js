@@ -11,6 +11,7 @@ var chatty = (function(string) {
 
     var toDom = document.getElementById("messageCon");
 
+
     toDom.innerHTML = messages;
   }
   string.getMessagesArray = function() {
@@ -18,7 +19,6 @@ var chatty = (function(string) {
   }
    return string;
 })(chatty || {});
-
 
 
 
